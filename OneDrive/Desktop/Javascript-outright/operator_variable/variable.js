@@ -15,3 +15,6 @@ if(recarea>sqarea){
 else{
     alert("the square area is greater than the rectnagle area");
 }
+
+var num=327846589n;
+document.write(typeof(num));
