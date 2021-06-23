@@ -4,7 +4,7 @@
         this.b=+prompt("Enter b", 0);
     }
   this.sum=function(){
-      console.log(this.a +this.b);
+      console.log(this.a+this.b);
   }
 
   this.mul=function(){

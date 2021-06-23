@@ -20,7 +20,7 @@ let ladder = {
     step: 0,
     up() {
       this.step++;
-      return this;
+      return this;  //returning the reference itself
     },
     down() {
       this.step--;

@@ -7,11 +7,12 @@
 
 
 function retrun_array(obj){
+    obj.sort();
    let key=Object.keys(obj);
    let val=Object.values(obj);
-    key.sort();
+    // key.sort();
    let result=[key,val];
-
+   
    console.log(result);
 }
 
